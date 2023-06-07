@@ -1,0 +1,16 @@
+{
+    "name": "PTE Ruleset",
+    "description": "PTE Ruleset",
+    "rules": [
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "We use affix, even for PTE"
+        },
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "We don't want to use this"
+        }
+    ]
+}

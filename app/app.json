@@ -1,0 +1,33 @@
+{
+  "id": "afec9d44-1a87-4ef8-85c3-583e72b227ff",
+  "name": "Data Exchange Framework Extension",
+  "publisher": "365 business development",
+  "version": "1.0.0.0",
+  "brief": "This extension contains advanced functionality for Microsoft's Data Exchange Framework in Microsoft Dynamics 365 Business Central.",
+  "description": "This extension contains advanced functionality for Microsoft's Data Exchange Framework in Microsoft Dynamics 365 Business Central.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

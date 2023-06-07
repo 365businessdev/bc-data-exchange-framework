@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="Data Exchange Framework Extension">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 918078992 - NamedType 1759761666" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 column is mapped in the %2 format to a %3 field, which is not supported.</source>
+          <target state="translated">Die Spalte „%1“ ist im Format „%2“ einem nicht unterstützen Feld des Typs „%3“ zugeordnet.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Field Value;%2=Field Value;%3=Filed Type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit bdev.DEF Data Exch. Field Map. - NamedType DataTypeNotSupportedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 918078992 - NamedType 4204626662" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file that you are trying to import, %1, is different from the specified %2, %3.\\The value in line %4, column %5 has incorrect format or type.\Expected format: %6, according to the %7 and %8 of the %9.\Actual value: "%10".</source>
+          <target state="translated">Die Datei „%1“, die Sie zu importieren versuchen, unterscheidet sich von der angegebenen %2, %3.\\Der Wert in Zeile %4, Spalte %5 liegt im falschen Format oder Typ vor.\Erwartetes Format: %6, gemäß %7 und %8 von %9.\Tatsächlicher Wert: „%10“.</target>
+          <note from="Developer" annotates="general" priority="2">%1=File Name;%2=Data Exch.Def Type;%3=Data Exch. Def Code;%4=Line No;%5=Column No;%6=Data Type;%7=Data Type Format;%8=Local;%9=Actual Value,%10=Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit bdev.DEF Data Exch. Field Map. - NamedType IncorrectFormatOrTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3067624366 - Method 2197396733 - NamedType 2549511956" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please wait while the operation is being completed . . .</source>
+          <target state="translated">Bitte warten Sie, während der Vorgang abgeschlossen wird . . .</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit bdev.DEF Data Exch. Imp. - Run - Method ImportFile - NamedType progressWindowMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3067624366 - Method 1911523748 - NamedType 2619509798" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Started at: %1</source>
+          <target state="translated">Gestartet: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit bdev.DEF Data Exch. Imp. - Run - Method SendNotificationAfterImport - NamedType importStartTimeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3067624366 - Method 1911523748 - NamedType 105583867" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finished at: %1</source>
+          <target state="translated">Beendet: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit bdev.DEF Data Exch. Imp. - Run - Method SendNotificationAfterImport - NamedType importFinishTimeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3067624366 - Method 1911523748 - NamedType 3831870363" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duration: %1</source>
+          <target state="translated">Dauer: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit bdev.DEF Data Exch. Imp. - Run - Method SendNotificationAfterImport - NamedType importDurationLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3067624366 - Method 1911523748 - NamedType 2276224071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of imported Lines: %1</source>
+          <target state="translated">Anzahl der importierten Zeilen: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit bdev.DEF Data Exch. Imp. - Run - Method SendNotificationAfterImport - NamedType numberOfLinesLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3580188444 - Method 1395469759 - NamedType 2814453662" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file that you are trying to import, %1, is different from the specified %2, %3.\\The value in line %4, column %5 is missing.</source>
+          <target state="translated">Die Datei %1, die Sie zu importieren versuchen, unterscheidet sich von der angegebenen %2, %3.\\Der Wert in Zeile %4, Spalte %5 fehlt.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = File Name, %2 = Data Exch.Def Type, %3 = Data Exch. Def Code, %4 = Line No, %5 = Column No</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit bdev.DEF Data Exch. Mapping - Method ProcessLine - NamedType missingValueErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3580188444 - Method 1395469759 - NamedType 2844206611" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The field mapping for Data Exchange Definition %1, Line Definition %2 and Table ID %3 is missing.\\Please verify set up and try again.</source>
+          <target state="translated">Die Feldzuordnung für die Datenaustauschdefinition %1, die Zeilendefinition %2 und die Tabellen-ID %3 fehlt.\\Bitte überprüfen Sie die Einrichtung und versuchen Sie es erneut.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Definition Code, %2 = Line Definition Code, %3 = Table ID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit bdev.DEF Data Exch. Mapping - Method ProcessLine - NamedType missingDataExchFieldMappingErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exchange Data View</source>
+          <target state="translated">Datenaustausch Datenansicht</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - NamedType 192661248" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This page must be initialized by passing a valid Data Exch. Def. Record.</source>
+          <target state="translated">Die Seite muss durch die Übergabe einer Datenaustauschdefinition initialisiert werden.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - NamedType PageMustBeInitializedWithDataExchDefRecordErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Method 2383333346 - NamedType 2609342416" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Started at: %1</source>
+          <target state="translated">Gestartet: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Method SendNotificationAfterProcessing - NamedType processingStartTimeLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Method 2383333346 - NamedType 2038369561" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finished at: %1</source>
+          <target state="translated">Beendet: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Method SendNotificationAfterProcessing - NamedType processingFinishTimeLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Method 2383333346 - NamedType 904595705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duration: %1</source>
+          <target state="translated">Dauer: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Method SendNotificationAfterProcessing - NamedType processingDurationLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 4257037292 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 1 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 2262753188 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 10 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 1625056571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 11 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 3538146422 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 12 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 2900449805 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 13 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader13 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 4006934016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 14 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader14 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 3369237399 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 15 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader15 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 987359954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 16 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader16 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 349663337 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 17 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader17 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 1456147548 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 18 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader18 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 818450931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 19 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader19 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 599766613 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 2 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 2539285461 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 20 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader20 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 1237463230 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 3 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 1068554207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 4 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 1706250824 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 5 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 2343947441 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 6 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 2981644058 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 7 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 130979019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 8 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Control 768675636 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of Column 9 from the Data Exch. Column Definition.</source>
+          <target state="translated">Gibt den Wert der Spalte der Datenaustauschspaltendefinition an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Control ColumnHeader9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Action 2751643373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run the specified Data Handling Codeunit to process the data.</source>
+          <target state="translated">Führt die angegebene Codeunit zur Datenverarbeitung aus, um die Daten zu verarbeiten.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Action ProcessData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2409193875 - Action 2751643373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process Data</source>
+          <target state="translated">Daten verarbeiten</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. Data View - Action ProcessData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 754695306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exchange List</source>
+          <target state="translated">Datenaustauschliste</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 754695306 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Entry No. of the Data Exchange.</source>
+          <target state="translated">Gibt die Lfd. Nr. für den Datenaustausch an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. List - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 754695306 - Control 804481195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the File Name of the Data Exchange.</source>
+          <target state="translated">Gibt die Dateinamen für den Datenaustausch an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. List - Control File Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 754695306 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Entry No. of the Data Exchange.</source>
+          <target state="translated">Gibt die Lfd. Nr. für den Datenaustausch an.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. List - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 754695306 - Control 577209412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created at</source>
+          <target state="translated">Erstellt am</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. List - Control SystemCreatedAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 754695306 - Action 88470173 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the data view for the currently selected Data Exchange Line Definition.</source>
+          <target state="translated">Öffnet die Datenansicht für die aktuell ausgewählte Datenaustauschzeilendefinition.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. List - Action ShowData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 754695306 - Action 88470173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Data</source>
+          <target state="translated">Daten anzeigen</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page bdev.DEF Data Exch. List - Action ShowData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3965680763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Data</source>
+          <target state="translated">Daten importieren</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report bdev.DEF Import Data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3965680763 - Control 625997650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exchange Definition</source>
+          <target state="translated">Datenaustauschdefinition</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report bdev.DEF Import Data - Control DataExchangeDefinition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3965680763 - Control 2325541223 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the data exchange definition of the file you want to import into Microsoft Dynamics 365 Business Central.</source>
+          <target state="translated">Gibt die Datenaustauschdefinition der Datei an, die Sie in Microsoft Dynamics 365 Business Central importieren möchten.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report bdev.DEF Import Data - Control DataExchDefCodeCtrl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3965680763 - Control 2325541223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exchange Definition</source>
+          <target state="translated">Datenaustauschdefinition</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report bdev.DEF Import Data - Control DataExchDefCodeCtrl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3965680763 - Control 3862658188 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Journal Selection</source>
+          <target state="translated">Buch.-Blatt</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report bdev.DEF Import Data - Control GenJnlBatchSelection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3965680763 - Control 691295570 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the general journal batch name to import the data into.</source>
+          <target state="translated">Gibt den Namen des Buch.-Blatt an, in den die Daten importiert werden sollen.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report bdev.DEF Import Data - Control GenJnlBatchNameCtrl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3965680763 - Control 691295570 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Journal Batch</source>
+          <target state="translated">Buch.-Blattname</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report bdev.DEF Import Data - Control GenJnlBatchNameCtrl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3905202955 - Action 2197396733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2758199471">
+          <source>Start the process of importing a txt or csv file, based on the current generic import definition.</source>
+          <target state="translated">Startet den Prozess zum Import einer TXT- oder CSV-Datei, basierend auf der aktuellen generischen Importdefinition.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension bdev.DEF Data Exch. Def. Card - Action ImportFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3905202955 - Action 2197396733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2758199471">
+          <source>Import File</source>
+          <target state="translated">Datei importieren</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension bdev.DEF Data Exch. Def. Card - Action ImportFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3059613628 - Action 88470173 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 208555588">
+          <source>Opens the data view for the currently selected Data Exchange Line Definition.</source>
+          <target state="translated">Öffnet die Datenansicht für die aktuell ausgewählte Datenaustauschzeilendefinition.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension bdev.DEF DExch. Line Def. Part - Action ShowData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3059613628 - Action 88470173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 208555588">
+          <source>Show Data</source>
+          <target state="translated">Daten anzeigen</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension bdev.DEF DExch. Line Def. Part - Action ShowData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3580188444 - Field 1722710769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1833301656">
+          <source>Data Exchange Entry No.</source>
+          <target state="translated">Datenaustausch Lfd. Nr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension bdev.DEF Data Exch. Mapping - Field bdev.DEF Data Exch. Entry No. - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
